@@ -1,12 +1,12 @@
 export default function TabBar({ current, onGo }) {
   const tabs = [
     ["library", "▥", "Biblioteca"],
-    ["journey", "●", "Viaggio"],
+    ["journey", "◉", "Viaggio"],
     ["editor", "✎", "Editor"],
   ];
 
   return (
-    <nav className="tabs">
+    <nav className="tabs premium-tabs">
       {tabs.map(([id, icon, label]) => (
         <button
           key={id}
