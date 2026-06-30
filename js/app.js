@@ -1,4 +1,4 @@
-const mainScreens = ["foyer", "journey"];
+const mainScreens = ["library", "journey"];
 
 function go(id) {
   document.querySelectorAll(".screen").forEach((screen) => screen.classList.remove("active"));
@@ -21,7 +21,6 @@ document.addEventListener("click", (event) => {
 });
 
 window.addEventListener("DOMContentLoaded", async () => {
-  await window.AureaTreasureEngine.load();
-  window.AureaGoldenThreadEngine.render();
+  await window.AureaLibraryEngine.load();
   window.AureaEditor.init();
 });

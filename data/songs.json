@@ -3,7 +3,7 @@
     "id": "the-sound-of-silence",
     "title": "The Sound of Silence",
     "artist": "Simon & Garfunkel",
-    "album": "Sounds of Silence",
+    "album": "",
     "year": 1966,
     "language": "en",
     "constellations": [
@@ -12,31 +12,30 @@
       "Comunicazione"
     ],
     "treasure": {
-      "name": "Il dialogo con il silenzio",
+      "name": "Tesoro di The Sound of Silence",
       "verse": "Hello darkness, my old friend…",
-      "verseNote": "Un saluto intimo al buio: non qualcosa da temere soltanto, ma una presenza familiare, quasi un confidente.",
+      "verseNote": "Un verso scelto come porta d’ingresso emotiva al brano.",
       "facts": {
-        "context": "La canzone è associata ai temi della comunicazione mancata, dell'alienazione e del silenzio interiore. In AUREA, i fatti verificabili saranno sempre separati dalle interpretazioni."
+        "context": "In AUREA questa sezione separa i fatti verificabili dalle interpretazioni. Per ora è una bozza editoriale."
       },
       "interpretation": {
-        "meaning": "Una possibile lettura è che il buio non rappresenti solo paura, ma uno spazio familiare in cui l'ascoltatore torna quando le parole non bastano più.",
-        "emotion": "Colpisce perché non grida. Sussurra. E proprio per questo lascia spazio a ciò che ciascuno sente dentro di sé."
+        "meaning": "Una possibile lettura del brano invita a guardare oltre il significato letterale delle parole.",
+        "emotion": "Questo Tesoro attraversa temi come Solitudine, Silenzio."
       },
       "revelation": "Il silenzio non è assenza di parole. A volte è il luogo in cui le parole acquistano significato.",
-      "listenAgain": "Ora riascoltala."
+      "listenAgain": "Riascoltala con occhi nuovi."
     },
     "echoes": [
       {
         "title": "Una possibile lettura",
-        "text": "Forse questa canzone non parla solo del silenzio attorno a noi, ma anche di quello che nasce quando smettiamo di ascoltarci davvero."
+        "text": "L’Eco offre una prospettiva aperta, senza pretendere di esaurire il significato della canzone."
       }
     ],
     "goldenThreads": [
       {
         "theme": "Solitudine",
         "relatedSongId": "wish-you-were-here",
-        "reason": "Entrambe le canzoni parlano di una presenza che manca: una voce, una persona, un legame.",
-        "explanation": "Il Filo d'Oro collega questi brani non per genere musicale, ma per esperienza umana: il desiderio di ritrovare una connessione autentica."
+        "reason": "Entrambi i brani attraversano la costellazione Solitudine."
       }
     ]
   },
@@ -44,7 +43,7 @@
     "id": "wish-you-were-here",
     "title": "Wish You Were Here",
     "artist": "Pink Floyd",
-    "album": "Wish You Were Here",
+    "album": "",
     "year": 1975,
     "language": "en",
     "constellations": [
@@ -53,20 +52,351 @@
       "Distanza"
     ],
     "treasure": {
-      "name": "La presenza dell'assenza",
+      "name": "Tesoro di Wish You Were Here",
       "verse": "Wish you were here",
-      "verseNote": "Una frase semplice, ma capace di contenere distanza, nostalgia e desiderio.",
+      "verseNote": "Un verso scelto come porta d’ingresso emotiva al brano.",
       "facts": {
-        "context": "AUREA userà questa sezione per distinguere informazioni documentate da letture interpretative."
+        "context": "In AUREA questa sezione separa i fatti verificabili dalle interpretazioni. Per ora è una bozza editoriale."
       },
       "interpretation": {
-        "meaning": "Una possibile lettura è che il brano parli di ciò che resta quando qualcuno è fisicamente o emotivamente lontano.",
-        "emotion": "Emoziona perché trasforma una mancanza in una frase universale."
+        "meaning": "Una possibile lettura del brano invita a guardare oltre il significato letterale delle parole.",
+        "emotion": "Questo Tesoro attraversa temi come Assenza, Nostalgia."
       },
-      "revelation": "A volte l'assenza è il modo più forte in cui una presenza continua a farsi sentire.",
-      "listenAgain": "Riascoltala pensando a chi ti manca."
+      "revelation": "A volte l’assenza è il modo più forte in cui una presenza continua a farsi sentire.",
+      "listenAgain": "Riascoltala con occhi nuovi."
     },
-    "echoes": [],
-    "goldenThreads": []
+    "echoes": [
+      {
+        "title": "Una possibile lettura",
+        "text": "L’Eco offre una prospettiva aperta, senza pretendere di esaurire il significato della canzone."
+      }
+    ],
+    "goldenThreads": [
+      {
+        "theme": "Assenza",
+        "relatedSongId": "everybody-hurts",
+        "reason": "Entrambi i brani attraversano la costellazione Assenza."
+      }
+    ]
+  },
+  {
+    "id": "imagine",
+    "title": "Imagine",
+    "artist": "John Lennon",
+    "album": "",
+    "year": 1971,
+    "language": "en",
+    "constellations": [
+      "Speranza",
+      "Pace",
+      "Utopia"
+    ],
+    "treasure": {
+      "name": "Tesoro di Imagine",
+      "verse": "Imagine all the people…",
+      "verseNote": "Un verso scelto come porta d’ingresso emotiva al brano.",
+      "facts": {
+        "context": "In AUREA questa sezione separa i fatti verificabili dalle interpretazioni. Per ora è una bozza editoriale."
+      },
+      "interpretation": {
+        "meaning": "Una possibile lettura del brano invita a guardare oltre il significato letterale delle parole.",
+        "emotion": "Questo Tesoro attraversa temi come Speranza, Pace."
+      },
+      "revelation": "Immaginare non è fuggire dalla realtà: è iniziare a cambiarla.",
+      "listenAgain": "Riascoltala con occhi nuovi."
+    },
+    "echoes": [
+      {
+        "title": "Una possibile lettura",
+        "text": "L’Eco offre una prospettiva aperta, senza pretendere di esaurire il significato della canzone."
+      }
+    ],
+    "goldenThreads": [
+      {
+        "theme": "Speranza",
+        "relatedSongId": "hallelujah",
+        "reason": "Entrambi i brani attraversano la costellazione Speranza."
+      }
+    ]
+  },
+  {
+    "id": "hallelujah",
+    "title": "Hallelujah",
+    "artist": "Leonard Cohen",
+    "album": "",
+    "year": 1984,
+    "language": "en",
+    "constellations": [
+      "Spiritualità",
+      "Fragilità",
+      "Amore"
+    ],
+    "treasure": {
+      "name": "Tesoro di Hallelujah",
+      "verse": "There was a secret chord…",
+      "verseNote": "Un verso scelto come porta d’ingresso emotiva al brano.",
+      "facts": {
+        "context": "In AUREA questa sezione separa i fatti verificabili dalle interpretazioni. Per ora è una bozza editoriale."
+      },
+      "interpretation": {
+        "meaning": "Una possibile lettura del brano invita a guardare oltre il significato letterale delle parole.",
+        "emotion": "Questo Tesoro attraversa temi come Spiritualità, Fragilità."
+      },
+      "revelation": "La bellezza può nascere anche dalle crepe della vita.",
+      "listenAgain": "Riascoltala con occhi nuovi."
+    },
+    "echoes": [
+      {
+        "title": "Una possibile lettura",
+        "text": "L’Eco offre una prospettiva aperta, senza pretendere di esaurire il significato della canzone."
+      }
+    ],
+    "goldenThreads": [
+      {
+        "theme": "Spiritualità",
+        "relatedSongId": "bohemian-rhapsody",
+        "reason": "Entrambi i brani attraversano la costellazione Spiritualità."
+      }
+    ]
+  },
+  {
+    "id": "bohemian-rhapsody",
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "album": "",
+    "year": 1975,
+    "language": "en",
+    "constellations": [
+      "Identità",
+      "Destino",
+      "Teatro"
+    ],
+    "treasure": {
+      "name": "Tesoro di Bohemian Rhapsody",
+      "verse": "Is this the real life?",
+      "verseNote": "Un verso scelto come porta d’ingresso emotiva al brano.",
+      "facts": {
+        "context": "In AUREA questa sezione separa i fatti verificabili dalle interpretazioni. Per ora è una bozza editoriale."
+      },
+      "interpretation": {
+        "meaning": "Una possibile lettura del brano invita a guardare oltre il significato letterale delle parole.",
+        "emotion": "Questo Tesoro attraversa temi come Identità, Destino."
+      },
+      "revelation": "A volte la domanda più potente non cerca una risposta, ma apre una soglia.",
+      "listenAgain": "Riascoltala con occhi nuovi."
+    },
+    "echoes": [
+      {
+        "title": "Una possibile lettura",
+        "text": "L’Eco offre una prospettiva aperta, senza pretendere di esaurire il significato della canzone."
+      }
+    ],
+    "goldenThreads": [
+      {
+        "theme": "Identità",
+        "relatedSongId": "the-sound-of-silence",
+        "reason": "Entrambi i brani attraversano la costellazione Identità."
+      }
+    ]
+  },
+  {
+    "id": "everybody-hurts",
+    "title": "Everybody Hurts",
+    "artist": "R.E.M.",
+    "album": "",
+    "year": 1992,
+    "language": "en",
+    "constellations": [
+      "Consolazione",
+      "Fragilità",
+      "Resistenza"
+    ],
+    "treasure": {
+      "name": "Tesoro di Everybody Hurts",
+      "verse": "Everybody hurts sometimes",
+      "verseNote": "Un verso scelto come porta d’ingresso emotiva al brano.",
+      "facts": {
+        "context": "In AUREA questa sezione separa i fatti verificabili dalle interpretazioni. Per ora è una bozza editoriale."
+      },
+      "interpretation": {
+        "meaning": "Una possibile lettura del brano invita a guardare oltre il significato letterale delle parole.",
+        "emotion": "Questo Tesoro attraversa temi come Consolazione, Fragilità."
+      },
+      "revelation": "Sapere che il dolore è condiviso può renderlo meno solitario.",
+      "listenAgain": "Riascoltala con occhi nuovi."
+    },
+    "echoes": [
+      {
+        "title": "Una possibile lettura",
+        "text": "L’Eco offre una prospettiva aperta, senza pretendere di esaurire il significato della canzone."
+      }
+    ],
+    "goldenThreads": [
+      {
+        "theme": "Consolazione",
+        "relatedSongId": "hurt",
+        "reason": "Entrambi i brani attraversano la costellazione Consolazione."
+      }
+    ]
+  },
+  {
+    "id": "hurt",
+    "title": "Hurt",
+    "artist": "Nine Inch Nails / Johnny Cash",
+    "album": "",
+    "year": 1994,
+    "language": "en",
+    "constellations": [
+      "Dolore",
+      "Memoria",
+      "Redenzione"
+    ],
+    "treasure": {
+      "name": "Tesoro di Hurt",
+      "verse": "I hurt myself today",
+      "verseNote": "Un verso scelto come porta d’ingresso emotiva al brano.",
+      "facts": {
+        "context": "In AUREA questa sezione separa i fatti verificabili dalle interpretazioni. Per ora è una bozza editoriale."
+      },
+      "interpretation": {
+        "meaning": "Una possibile lettura del brano invita a guardare oltre il significato letterale delle parole.",
+        "emotion": "Questo Tesoro attraversa temi come Dolore, Memoria."
+      },
+      "revelation": "Riconoscere la ferita può essere il primo gesto di verità.",
+      "listenAgain": "Riascoltala con occhi nuovi."
+    },
+    "echoes": [
+      {
+        "title": "Una possibile lettura",
+        "text": "L’Eco offre una prospettiva aperta, senza pretendere di esaurire il significato della canzone."
+      }
+    ],
+    "goldenThreads": [
+      {
+        "theme": "Dolore",
+        "relatedSongId": "wish-you-were-here",
+        "reason": "Entrambi i brani attraversano la costellazione Dolore."
+      }
+    ]
+  },
+  {
+    "id": "fast-car",
+    "title": "Fast Car",
+    "artist": "Tracy Chapman",
+    "album": "",
+    "year": 1988,
+    "language": "en",
+    "constellations": [
+      "Fuga",
+      "Speranza",
+      "Riscatto"
+    ],
+    "treasure": {
+      "name": "Tesoro di Fast Car",
+      "verse": "You got a fast car",
+      "verseNote": "Un verso scelto come porta d’ingresso emotiva al brano.",
+      "facts": {
+        "context": "In AUREA questa sezione separa i fatti verificabili dalle interpretazioni. Per ora è una bozza editoriale."
+      },
+      "interpretation": {
+        "meaning": "Una possibile lettura del brano invita a guardare oltre il significato letterale delle parole.",
+        "emotion": "Questo Tesoro attraversa temi come Fuga, Speranza."
+      },
+      "revelation": "Il desiderio di partire è spesso il desiderio di diventare qualcuno di nuovo.",
+      "listenAgain": "Riascoltala con occhi nuovi."
+    },
+    "echoes": [
+      {
+        "title": "Una possibile lettura",
+        "text": "L’Eco offre una prospettiva aperta, senza pretendere di esaurire il significato della canzone."
+      }
+    ],
+    "goldenThreads": [
+      {
+        "theme": "Fuga",
+        "relatedSongId": "imagine",
+        "reason": "Entrambi i brani attraversano la costellazione Fuga."
+      }
+    ]
+  },
+  {
+    "id": "losing-my-religion",
+    "title": "Losing My Religion",
+    "artist": "R.E.M.",
+    "album": "",
+    "year": 1991,
+    "language": "en",
+    "constellations": [
+      "Dubbio",
+      "Ossessione",
+      "Vulnerabilità"
+    ],
+    "treasure": {
+      "name": "Tesoro di Losing My Religion",
+      "verse": "That’s me in the corner",
+      "verseNote": "Un verso scelto come porta d’ingresso emotiva al brano.",
+      "facts": {
+        "context": "In AUREA questa sezione separa i fatti verificabili dalle interpretazioni. Per ora è una bozza editoriale."
+      },
+      "interpretation": {
+        "meaning": "Una possibile lettura del brano invita a guardare oltre il significato letterale delle parole.",
+        "emotion": "Questo Tesoro attraversa temi come Dubbio, Ossessione."
+      },
+      "revelation": "Esporsi significa rischiare di essere fraintesi, ma anche di essere finalmente visti.",
+      "listenAgain": "Riascoltala con occhi nuovi."
+    },
+    "echoes": [
+      {
+        "title": "Una possibile lettura",
+        "text": "L’Eco offre una prospettiva aperta, senza pretendere di esaurire il significato della canzone."
+      }
+    ],
+    "goldenThreads": [
+      {
+        "theme": "Dubbio",
+        "relatedSongId": "everybody-hurts",
+        "reason": "Entrambi i brani attraversano la costellazione Dubbio."
+      }
+    ]
+  },
+  {
+    "id": "hotel-california",
+    "title": "Hotel California",
+    "artist": "Eagles",
+    "album": "",
+    "year": 1976,
+    "language": "en",
+    "constellations": [
+      "Illusione",
+      "Trappola",
+      "Desiderio"
+    ],
+    "treasure": {
+      "name": "Tesoro di Hotel California",
+      "verse": "You can check out any time you like",
+      "verseNote": "Un verso scelto come porta d’ingresso emotiva al brano.",
+      "facts": {
+        "context": "In AUREA questa sezione separa i fatti verificabili dalle interpretazioni. Per ora è una bozza editoriale."
+      },
+      "interpretation": {
+        "meaning": "Una possibile lettura del brano invita a guardare oltre il significato letterale delle parole.",
+        "emotion": "Questo Tesoro attraversa temi come Illusione, Trappola."
+      },
+      "revelation": "Alcuni luoghi sembrano libertà finché non scopri quanto è difficile lasciarli.",
+      "listenAgain": "Riascoltala con occhi nuovi."
+    },
+    "echoes": [
+      {
+        "title": "Una possibile lettura",
+        "text": "L’Eco offre una prospettiva aperta, senza pretendere di esaurire il significato della canzone."
+      }
+    ],
+    "goldenThreads": [
+      {
+        "theme": "Illusione",
+        "relatedSongId": "bohemian-rhapsody",
+        "reason": "Entrambi i brani attraversano la costellazione Illusione."
+      }
+    ]
   }
 ]

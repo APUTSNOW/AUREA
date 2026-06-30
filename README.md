@@ -1,10 +1,8 @@
-# AUREA Alpha 0.7
+# AUREA Alpha 0.8
 
 ## Novità
-- Primo AUREA Editor
-- Creazione bozze Tesoro dal browser
-- Salvataggio locale con localStorage
-- Anteprima JSON pronta per essere copiata in `songs.json`
-
-## Nota
-L'Editor è una prima versione interna. Non salva ancora nel repository o su un backend.
+- Biblioteca dinamica
+- Ricerca istantanea
+- Card generate da `songs.json`
+- Apertura del Tesoro per qualsiasi brano
+- 10 canzoni iniziali
