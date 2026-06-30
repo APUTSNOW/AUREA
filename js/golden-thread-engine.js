@@ -6,7 +6,6 @@ window.AureaGoldenThreadEngine = {
 
     const firstThread = current.goldenThreads[0];
     const related = songs.find((song) => song.id === firstThread.relatedSongId);
-
     if (!related) return;
 
     this.set("[data-thread-title]", `Dopo ${current.title}`);

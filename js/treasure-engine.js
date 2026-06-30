@@ -7,10 +7,6 @@ window.AureaTreasureEngine = {
     this.render(this.songs[0]);
   },
 
-  firstSong() {
-    return this.songs[0];
-  },
-
   render(song) {
     if (!song) return;
     const treasure = song.treasure;

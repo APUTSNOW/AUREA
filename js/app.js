@@ -23,4 +23,5 @@ document.addEventListener("click", (event) => {
 window.addEventListener("DOMContentLoaded", async () => {
   await window.AureaTreasureEngine.load();
   window.AureaGoldenThreadEngine.render();
+  window.AureaEditor.init();
 });
