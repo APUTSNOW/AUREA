@@ -1,14 +1,16 @@
-# AUREA Web Prototype v0.4
+# AUREA Alpha 0.5
 
-Nuova versione costruita attorno al Primo Ascolto e al Primo Tesoro.
+AUREA è un compagno di ascolto che aiuta le persone a comprendere il significato delle canzoni, trasformando ogni brano in un viaggio tra parole, emozioni e storie.
 
-## Novità
-- Schermata: Benvenuto in AUREA
-- Frase: La musica finalmente sarà compresa
-- Brano manifesto: The Sound of Silence
-- Flusso: Benvenuto → Primo Ascolto → Primo Tesoro → Foyer
-- Costellazioni
-- Foyer più essenziale
+## Novità Alpha 0.5
 
-## Netlify Drop
-Scompatta lo ZIP e carica la cartella su Netlify Drop, oppure carica `index.html` e `manifest.json`.
+- Struttura professionale con cartelle separate
+- `css/main.css` per il design system
+- `js/app.js` per la navigazione
+- `js/treasure-engine.js` per il primo Treasure Engine
+- `data/songs.json` per i dati delle canzoni
+- `docs/technical-blueprint.md` per la visione tecnica
+
+## Promessa
+
+La musica finalmente sarà compresa.

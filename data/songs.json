@@ -1,0 +1,29 @@
+[
+  {
+    "id": "the-sound-of-silence",
+    "title": "The Sound of Silence",
+    "artist": "Simon & Garfunkel",
+    "album": "Sounds of Silence",
+    "year": 1966,
+    "constellations": [
+      "Solitudine",
+      "Silenzio",
+      "Comunicazione"
+    ],
+    "treasure": {
+      "name": "Il dialogo con il silenzio",
+      "verse": "Hello darkness, my old friend…",
+      "meaning": "Un saluto intimo al buio: non qualcosa da temere soltanto, ma una presenza familiare, quasi un confidente.",
+      "context": "Una possibile lettura della canzone riguarda la solitudine, la comunicazione mancata e il rumore del mondo moderno.",
+      "emotion": "Colpisce perché non grida. Sussurra. E proprio per questo lascia spazio a ciò che ciascuno sente dentro di sé.",
+      "revelation": "Il silenzio non è assenza di parole. A volte è il luogo in cui le parole acquistano significato.",
+      "listenAgain": "Ora riascoltala."
+    },
+    "goldenThread": [
+      {
+        "theme": "Solitudine",
+        "reason": "Collega brani che raccontano il bisogno di essere ascoltati davvero."
+      }
+    ]
+  }
+]
