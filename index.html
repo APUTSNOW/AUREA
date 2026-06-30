@@ -1,145 +1,17 @@
 <!doctype html>
 <html lang="it">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>AUREA Alpha 0.8</title>
-  <meta name="theme-color" content="#0B0B0B">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="AUREA">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0B0B0B" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="AUREA" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="manifest" href="/manifest.json" />
+  <title>AUREA Alpha 0.9</title>
 </head>
 <body>
-<main class="app">
-  <div class="aurora"></div>
-  <div class="dust"></div>
-
-  <section id="welcome" class="screen active">
-    <div class="center">
-      <div class="mark gold">♪</div>
-      <h1 class="gold">AUREA</h1>
-      <p class="claim">BENVENUTO IN AUREA</p>
-      <p class="subtitle">La musica finalmente sarà compresa</p>
-      <p>Ogni canzone custodisce un tesoro.</p>
-      <button class="btn" data-go="library">Esplora la Biblioteca</button>
-    </div>
-  </section>
-
-  <section id="library" class="screen main-screen">
-    <div class="scroll">
-      <h2 class="gold">Biblioteca</h2>
-      <p>Esplora i primi Tesori di AUREA.</p>
-
-      <input id="library-search" class="search" placeholder="Cerca canzone, artista, tema..." autocomplete="off">
-
-      <p class="section-title">Costellazioni</p>
-      <div class="row" id="constellation-filters"></div>
-
-      <p class="section-title">Tesori</p>
-      <div id="song-list" class="song-list"></div>
-    </div>
-  </section>
-
-  <section id="treasure" class="screen">
-    <button class="back" data-go="library">‹</button>
-    <div class="scroll">
-      <p class="label">Tesoro</p>
-      <h2 class="gold" data-treasure-title></h2>
-      <p data-treasure-artist></p>
-
-      <article class="parchment">
-        <h3>📜 Il Verso</h3>
-        <div class="quote" data-treasure-verse></div>
-        <p data-treasure-verse-note></p>
-
-        <h3>🕯️ Il Significato</h3>
-        <p data-treasure-meaning></p>
-
-        <h3>🌍 Il Contesto</h3>
-        <p data-treasure-context></p>
-
-        <h3>❤️ L’Emozione</h3>
-        <p data-treasure-emotion></p>
-
-        <h3>✨ La Rivelazione</h3>
-        <p data-treasure-revelation></p>
-
-        <div class="seal" data-treasure-listen-again></div>
-      </article>
-
-      <article class="card echo-card">
-        <p class="label">🕊️ L’Eco</p>
-        <p data-echo-text></p>
-      </article>
-
-      <article class="card thread-card">
-        <p class="label">🌌 Filo d’Oro</p>
-        <h3 data-related-title></h3>
-        <p data-related-reason></p>
-        <button class="inline-btn" id="open-related">Apri il Tesoro collegato</button>
-      </article>
-
-      <button class="btn" data-go="journey">Salva nel Mio Viaggio</button>
-    </div>
-  </section>
-
-  <section id="journey" class="screen main-screen">
-    <div class="scroll">
-      <h2 class="gold">Il Mio Viaggio</h2>
-      <p>Le tue scoperte musicali.</p>
-      <article class="card list">
-        <strong>Ultimo Tesoro aperto</strong>
-        <span data-journey-last>Nessuno</span>
-      </article>
-      <article class="card list">
-        <strong>Ultima Rivelazione</strong>
-        <span data-journey-revelation>Nessuna</span>
-      </article>
-      <article class="card list">
-        <strong>Costellazioni disponibili</strong>
-        <span data-journey-count>0</span>
-      </article>
-    </div>
-  </section>
-
-  <section id="editor" class="screen">
-    <button class="back" data-go="library">‹</button>
-    <div class="scroll">
-      <p class="label">AUREA Studio</p>
-      <h2 class="gold">Editor dei Tesori</h2>
-      <p>Crea una bozza locale di un nuovo Tesoro.</p>
-      <form id="treasure-form" class="editor-form">
-        <label>Titolo canzone<input name="title" placeholder="Es. Imagine"></label>
-        <label>Artista<input name="artist" placeholder="Es. John Lennon"></label>
-        <label>Costellazioni<input name="constellations" placeholder="Speranza, Pace, Utopia"></label>
-        <label>Il Verso<textarea name="verse"></textarea></label>
-        <label>Rivelazione<textarea name="revelation"></textarea></label>
-        <button type="submit" class="btn">Salva bozza</button>
-      </form>
-      <article class="card editor-output">
-        <p class="label">Bozza generata</p>
-        <pre id="draft-output">{}</pre>
-      </article>
-    </div>
-  </section>
-
-  <div id="mini-player" class="mini-player" data-go="treasure">
-    <div class="cover">♪</div>
-    <div><strong data-mini-title>AUREA</strong><span data-mini-artist>Biblioteca</span></div>
-    <b class="gold">✦</b>
-  </div>
-
-  <nav id="tabs" class="tabs">
-    <button class="active" data-go="library"><b>▥</b>Biblioteca</button>
-    <button data-go="journey"><b>●</b>Viaggio</button>
-    <button data-go="editor"><b>✎</b>Editor</button>
-  </nav>
-</main>
-
-<script src="js/app.js"></script>
-<script src="js/library-engine.js"></script>
-<script src="js/editor.js"></script>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
 </html>

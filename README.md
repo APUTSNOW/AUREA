@@ -1,8 +1,15 @@
-# AUREA Alpha 0.8
+# AUREA Alpha 0.9 React
 
-## Novità
-- Biblioteca dinamica
-- Ricerca istantanea
-- Card generate da `songs.json`
-- Apertura del Tesoro per qualsiasi brano
-- 10 canzoni iniziali
+Prima rifondazione architetturale con React + Vite.
+
+## Comandi
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
+## Netlify
+Build command: `npm run build`
+Publish directory: `dist`
