@@ -5,6 +5,7 @@
     "artist": "Simon & Garfunkel",
     "album": "Sounds of Silence",
     "year": 1966,
+    "language": "en",
     "constellations": [
       "Solitudine",
       "Silenzio",
@@ -13,17 +14,59 @@
     "treasure": {
       "name": "Il dialogo con il silenzio",
       "verse": "Hello darkness, my old friend…",
-      "meaning": "Un saluto intimo al buio: non qualcosa da temere soltanto, ma una presenza familiare, quasi un confidente.",
-      "context": "Una possibile lettura della canzone riguarda la solitudine, la comunicazione mancata e il rumore del mondo moderno.",
-      "emotion": "Colpisce perché non grida. Sussurra. E proprio per questo lascia spazio a ciò che ciascuno sente dentro di sé.",
+      "verseNote": "Un saluto intimo al buio: non qualcosa da temere soltanto, ma una presenza familiare, quasi un confidente.",
+      "facts": {
+        "context": "La canzone è associata ai temi della comunicazione mancata, dell'alienazione e del silenzio interiore. In AUREA, i fatti verificabili saranno sempre separati dalle interpretazioni."
+      },
+      "interpretation": {
+        "meaning": "Una possibile lettura è che il buio non rappresenti solo paura, ma uno spazio familiare in cui l'ascoltatore torna quando le parole non bastano più.",
+        "emotion": "Colpisce perché non grida. Sussurra. E proprio per questo lascia spazio a ciò che ciascuno sente dentro di sé."
+      },
       "revelation": "Il silenzio non è assenza di parole. A volte è il luogo in cui le parole acquistano significato.",
       "listenAgain": "Ora riascoltala."
     },
-    "goldenThread": [
+    "echoes": [
+      {
+        "title": "Una possibile lettura",
+        "text": "Forse questa canzone non parla solo del silenzio attorno a noi, ma anche di quello che nasce quando smettiamo di ascoltarci davvero."
+      }
+    ],
+    "goldenThreads": [
       {
         "theme": "Solitudine",
-        "reason": "Collega brani che raccontano il bisogno di essere ascoltati davvero."
+        "relatedSongId": "wish-you-were-here",
+        "reason": "Entrambe le canzoni parlano di una presenza che manca: una voce, una persona, un legame.",
+        "explanation": "Il Filo d'Oro collega questi brani non per genere musicale, ma per esperienza umana: il desiderio di ritrovare una connessione autentica."
       }
     ]
+  },
+  {
+    "id": "wish-you-were-here",
+    "title": "Wish You Were Here",
+    "artist": "Pink Floyd",
+    "album": "Wish You Were Here",
+    "year": 1975,
+    "language": "en",
+    "constellations": [
+      "Assenza",
+      "Nostalgia",
+      "Distanza"
+    ],
+    "treasure": {
+      "name": "La presenza dell'assenza",
+      "verse": "Wish you were here",
+      "verseNote": "Una frase semplice, ma capace di contenere distanza, nostalgia e desiderio.",
+      "facts": {
+        "context": "AUREA userà questa sezione per distinguere informazioni documentate da letture interpretative."
+      },
+      "interpretation": {
+        "meaning": "Una possibile lettura è che il brano parli di ciò che resta quando qualcuno è fisicamente o emotivamente lontano.",
+        "emotion": "Emoziona perché trasforma una mancanza in una frase universale."
+      },
+      "revelation": "A volte l'assenza è il modo più forte in cui una presenza continua a farsi sentire.",
+      "listenAgain": "Riascoltala pensando a chi ti manca."
+    },
+    "echoes": [],
+    "goldenThreads": []
   }
 ]

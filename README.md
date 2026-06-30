@@ -1,16 +1,15 @@
-# AUREA Alpha 0.5
+# AUREA Alpha 0.6
 
-AUREA è un compagno di ascolto che aiuta le persone a comprendere il significato delle canzoni, trasformando ogni brano in un viaggio tra parole, emozioni e storie.
+AUREA è un compagno di ascolto che aiuta le persone a comprendere il significato delle canzoni.
 
-## Novità Alpha 0.5
+## Novità Alpha 0.6
 
-- Struttura professionale con cartelle separate
-- `css/main.css` per il design system
-- `js/app.js` per la navigazione
-- `js/treasure-engine.js` per il primo Treasure Engine
-- `data/songs.json` per i dati delle canzoni
-- `docs/technical-blueprint.md` per la visione tecnica
+- Treasure Engine più strutturato
+- Golden Thread Engine
+- `songs.json` con due canzoni
+- separazione tra fatti, interpretazioni e rivelazione
+- nuova schermata Filo d’Oro
 
-## Promessa
+## Motore
 
-La musica finalmente sarà compresa.
+Il cuore di AUREA ora usa una struttura dati più vicina a quella di un prodotto reale.

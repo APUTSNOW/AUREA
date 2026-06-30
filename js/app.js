@@ -21,5 +21,6 @@ document.addEventListener("click", (event) => {
 });
 
 window.addEventListener("DOMContentLoaded", async () => {
-  if (window.AureaTreasureEngine) await window.AureaTreasureEngine.load();
+  await window.AureaTreasureEngine.load();
+  window.AureaGoldenThreadEngine.render();
 });

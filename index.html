@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>AUREA Alpha 0.5</title>
+  <title>AUREA Alpha 0.6</title>
   <meta name="theme-color" content="#0B0B0B">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="AUREA">
@@ -45,24 +45,64 @@
       <div class="scroll">
         <p class="label">Il Primo Tesoro</p>
         <h2 class="gold" data-treasure-title>The Sound of Silence</h2>
-        <p>Non una spiegazione assoluta. Un invito ad ascoltare più a fondo.</p>
+        <p data-treasure-subtitle>Non una spiegazione assoluta. Un invito ad ascoltare più a fondo.</p>
 
-        <article class="parchment">
+        <article class="parchment" id="treasure-card">
           <h3>📜 Il Verso</h3>
-          <div class="quote">“Hello darkness, my old friend…”</div>
-          <p>Un saluto intimo al buio: non qualcosa da temere soltanto, ma una presenza familiare, quasi un confidente.</p>
+          <div class="quote" data-treasure-verse>“Hello darkness, my old friend…”</div>
+          <p data-treasure-verse-note>Un saluto intimo al buio.</p>
+
           <h3>🕯️ Il Significato</h3>
-          <p>Il verso apre una riflessione sulla solitudine, sulla difficoltà di comunicare davvero e sul silenzio che può crescere anche tra le persone.</p>
+          <p data-treasure-meaning></p>
+
           <h3>🌍 Il Contesto</h3>
-          <p>È una canzone che continua a parlare a generazioni diverse perché il suo tema resta attuale: essere circondati da voci, ma sentirsi comunque soli.</p>
+          <p data-treasure-context></p>
+
           <h3>❤️ L’Emozione</h3>
-          <p>Colpisce perché non grida. Sussurra. E proprio per questo lascia spazio a ciò che ciascuno sente dentro di sé.</p>
+          <p data-treasure-emotion></p>
+
           <h3>✨ La Rivelazione</h3>
-          <p>Il silenzio non è assenza di parole. A volte è il luogo in cui le parole acquistano significato.</p>
-          <div class="seal">✨ Ora riascoltala.</div>
+          <p data-treasure-revelation></p>
+
+          <div class="seal" data-treasure-listen-again>✨ Ora riascoltala.</div>
         </article>
 
-        <button class="btn" data-go="foyer">Il tuo primo Tesoro entra nel Viaggio</button>
+        <article class="card echo-card">
+          <p class="label">🕊️ L’Eco</p>
+          <p data-echo-text></p>
+        </article>
+
+        <article class="card thread-card">
+          <p class="label">🌌 Filo d’Oro</p>
+          <h3 data-thread-title>Il prossimo passo del tuo Viaggio</h3>
+          <p data-thread-reason></p>
+          <button class="inline-btn" data-go="golden-thread">Segui il Filo d’Oro</button>
+        </article>
+
+        <button class="btn" data-go="foyer">Il tuo Tesoro entra nel Viaggio</button>
+      </div>
+    </section>
+
+    <section id="golden-thread" class="screen">
+      <button class="back" data-go="first-treasure">‹</button>
+      <div class="scroll">
+        <p class="label">Filo d’Oro</p>
+        <h2 class="gold">Non una playlist. Un percorso.</h2>
+        <p>Le canzoni possono essere collegate da emozioni, simboli e domande simili.</p>
+
+        <article class="card discovery">
+          <p class="label">Collegamento trovato</p>
+          <h3 data-related-title></h3>
+          <p data-related-artist></p>
+          <p class="thread-reason" data-related-reason></p>
+        </article>
+
+        <article class="parchment compact">
+          <h3>✨ Perché è collegata?</h3>
+          <p data-related-explanation></p>
+        </article>
+
+        <button class="btn" data-go="foyer">Torna al Foyer</button>
       </div>
     </section>
 
@@ -74,16 +114,12 @@
         <article class="card discovery" data-go="first-treasure">
           <p class="label">La Scoperta</p>
           <h3 data-discovery-title>The Sound of Silence</h3>
-          <p>A volte il silenzio parla più delle parole.</p>
+          <p data-discovery-copy>A volte il silenzio parla più delle parole.</p>
           <button class="inline-btn">Scopri il Tesoro</button>
         </article>
 
         <p class="section-title">Costellazioni</p>
-        <div class="row">
-          <article class="card mini-card">🌌<strong>Solitudine</strong><span>8 tesori</span></article>
-          <article class="card mini-card">🌧️<strong>Nostalgia</strong><span>12 tesori</span></article>
-          <article class="card mini-card">🌅<strong>Speranza</strong><span>6 tesori</span></article>
-        </div>
+        <div class="row" id="constellation-row"></div>
 
         <p class="section-title">Continua il tuo Viaggio</p>
         <article class="card list" data-go="player">
@@ -114,11 +150,11 @@
         </article>
         <article class="card list">
           <strong>Prima Rivelazione</strong>
-          <span>Il silenzio può dare significato alle parole.</span>
+          <span data-journey-revelation>Il silenzio può dare significato alle parole.</span>
         </article>
         <article class="card list">
-          <strong>Costellazione esplorata</strong>
-          <span>Solitudine</span>
+          <strong>Prima Costellazione</strong>
+          <span data-journey-constellation>Solitudine</span>
         </article>
       </div>
     </section>
@@ -140,6 +176,7 @@
   </main>
 
   <script src="js/treasure-engine.js"></script>
+  <script src="js/golden-thread-engine.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
